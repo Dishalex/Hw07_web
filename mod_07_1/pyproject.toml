@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "mod-07-1"
+version = "0.1.0"
+description = "SQLAlchemy study module_07_WEB"
+authors = ["Dishalex <dishalex@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+packages = [{include = "mod_07_1"}]
+
+[tool.poetry.dependencies]
+python = "^3.11"
+sqlalchemy = "^2.0.21"
+aiosqlite = "^0.19.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
